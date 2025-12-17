@@ -1,0 +1,6 @@
+,customerId,CustomerName,area,orderId,restaurant,foodItem,quantity,price,deliveryFee,Total
+0,c11,vimal,Anna Nagar,2101.0,A2B Veg,Dosa,3.0,40.0,20.0,140.0
+1,c11,vimal,Anna Nagar,2104.0,A2B Veg,Idly,5.0,15.0,20.0,95.0
+2,c12,Nisha,Velachery,2102.0,BBQ Nation,Grill Chicken,1.0,350.0,30.0,380.0
+3,c13,Arvind,Tambaram,2103.0,Pizza Hub,Cheese Pizza,2.0,250.0,25.0,525.0
+4,c14,Kavitha,Porur,,,,,,,
