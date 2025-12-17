@@ -11,4 +11,3 @@ print(f"\n\nThe Average of The Subject 1 List Is: {studentDataFrame['Subject1'].
 print(f"\nThe Median of The Subject 1 Is: {studentDataFrame['Subject1'].median()}")
 print(f"\nThe Standard Division of The Subject 1 Is: {studentDataFrame['Subject1'].std()}")
 print(f"\nThe Co-Efficient of The Student List Is: \n{np.corrcoef(studentDataFrame['Subject1'],studentDataFrame['Subject2'])}")
-
