@@ -1,0 +1,7 @@
+Order ID,CustomerName,Category,Quantity,Price,Order Date,Region
+201,John,Electronics,2,30000,10-01-2024,North
+202,Sara,Clothing,5,2000,12-01-2024,South
+203,Mike,Electronics,1,45000,15-01-2024,East
+204,Anna,Furniture,3,15000,18-01-2024,West
+205,David,Clothing,4,2500,20-01-2024,North
+206,Emily,Electronics,2,32000,25-01-2024,South
