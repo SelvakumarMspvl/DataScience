@@ -27,6 +27,39 @@ print(
     f"{dataFrame.iloc[::2]}"
 )
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 dataFrame["totalAmount"] = dataFrame['Quantity'] * dataFrame['Price']
 print(
     f"The Details About purchase Totally More Then 60000 Rs Product"
