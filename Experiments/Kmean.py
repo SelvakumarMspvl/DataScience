@@ -3,14 +3,14 @@ import matplotlib.pyplot as plt
 from sklearn.cluster import KMeans
 
 
-iris = sns.load_dataset("iris")
+iris = sns.load_dataset('iris')
 
-x = iris.drop("species",axis=1)
+x = iris.drop('species', axis=1)
 
 k_mean = KMeans(n_clusters = 3,random_state = 42)
 iris['cluster'] = k_mean.fit_predict(x)
 
-print("Cluster Center:\n",k_mean.cluster_centers_)
+print('Cluster Center:\n', k_mean.cluster_centers_)
 plt.figure(figsize=(12,8))
 plt.scatter(
     x.iloc[:,0],
@@ -19,10 +19,10 @@ plt.scatter(
     cmap = 'viridis',
     s = 50
 )
-plt.title("K-Mean Clustering on iris dataset")
-plt.xlabel("sepal length(cm)")
-plt.ylabel("sepal width(cm)")
+plt.title('K-Mean Clustering on iris dataset')
+plt.xlabel('sepal length(cm)')
+plt.ylabel('sepal width(cm)')
 
-print(iris.groupby(["cluster","species"]).size())
+print(iris.groupby(['cluster', 'species']).size())
 
 plt.show()
